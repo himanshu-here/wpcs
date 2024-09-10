@@ -1,0 +1,230 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderControlCharacters": true,
+    "less.lint.boxModel": "warning",
+    "less.lint.duplicateProperties": "warning",
+    "editor.renderWhitespace": "all",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "git.ignoreLegacyWarning": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",./",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.detectIndentation": true,
+    "editor.matchBrackets": "always",
+    "editor.wordWrap": "off",
+    "editor.tabCompletion": "on",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 80,
+    "liveshare.guestApprovalRequired": true,
+    "window.menuBarVisibility": "visible",
+    "phpSniffer.run": "onType",
+    "phpcs.enable": true,
+    "phpcs.standard": "WordPress-Core",
+    "phpcbf.standard": "WordPress-Core",
+    "phpcbf.executablePath": "/home/users/himanshu.wordpress/.config/composer/vendor/squizlabs/php_codesniffer/bin/phpcbf",
+    "phpcs.executablePath": "/home/users/himanshu.wordpress/.config/composer/vendor/squizlabs/php_codesniffer/bin/phpcs",
+    "workbench.editor.enablePreview": false,
+    "stylelint.enable": true,
+    "css.validate": false,
+    "scss.validate": false,
+    "prettier.eslintIntegration": true,
+    "editor.defaultFormatter": "simone-baldini.vscode-phpcbf",
+    "[css]": {
+        "editor.formatOnSave": true
+    },
+    "[php]": {
+        "editor.defaultFormatter": "simone-baldini.vscode-phpcbf",
+        "editor.detectIndentation": true,
+        "editor.useTabStops": true,
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": false
+    },
+    "[javascript]": {
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.useTabStops": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "intelephense.stubs": [
+        "apache",
+        "bcmath",
+        "bz2",
+        "calendar",
+        "com_dotnet",
+        "Core",
+        "ctype",
+        "curl",
+        "date",
+        "dba",
+        "dom",
+        "enchant",
+        "exif",
+        "FFI",
+        "fileinfo",
+        "filter",
+        "fpm",
+        "ftp",
+        "gd",
+        "gettext",
+        "gmp",
+        "hash",
+        "iconv",
+        "imap",
+        "intl",
+        "json",
+        "ldap",
+        "libxml",
+        "mbstring",
+        "meta",
+        "mysqli",
+        "oci8",
+        "odbc",
+        "openssl",
+        "pcntl",
+        "pcre",
+        "PDO",
+        "pdo_ibm",
+        "pdo_mysql",
+        "pdo_pgsql",
+        "pdo_sqlite",
+        "pgsql",
+        "Phar",
+        "posix",
+        "pspell",
+        "readline",
+        "Reflection",
+        "session",
+        "shmop",
+        "SimpleXML",
+        "snmp",
+        "soap",
+        "sockets",
+        "sodium",
+        "SPL",
+        "sqlite3",
+        "standard",
+        "superglobals",
+        "sysvmsg",
+        "sysvsem",
+        "sysvshm",
+        "tidy",
+        "tokenizer",
+        "xml",
+        "xmlreader",
+        "xmlrpc",
+        "xmlwriter",
+        "xsl",
+        "Zend OPcache",
+        "zip",
+        "zlib",
+        "wordpress"
+    ],
+    "prettier.useEditorConfig": true,
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "remimarsal.prettier-now"
+    },
+    "[xml]": {
+        "editor.formatOnSave": false
+    },
+    "editor.insertSpaces": false,
+    "editor.fontLigatures": true,
+    "prettier.trailingComma": "all",
+    // "editor.defaultFormatter": "simone-baldini.vscode-phpcbf",
+    "php.validate.executablePath": "",
+    "html.format.preserveNewLines": false,
+    "html.validate.styles": false,
+    "files.autoSaveDelay": 2000,
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.prettierrc": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorCustomizations": {
+        "editor.background": "#080808",
+        "editor.foreground": "#ffffff",
+        "sideBar.background": "#181515",
+        "sideBar.foreground": "#ffffff",
+        "editorBracketMatch.background": "#5e5e5e",
+        "editorBracketMatch.border": "#ffffff00"
+    },
+    "editor.tokenColorCustomizations": {
+        "numbers": "#8492fa",
+        "comments": "#788a8f",
+        "functions": "#35e1ff",
+        "textMateRules": [
+            {
+                "scope": [
+                    //following will be in italic (=FlottFlott)
+                    "comment",
+                    "entity.name.type.class", //class names
+                    "keyword", //import, export, return…
+                    "constant", //String, Number, Boolean…, this, super
+                    "storage.modifier", //static keyword
+                    "storage.type.class.js" //class keyword
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    //following will be excluded from italics (VSCode has some defaults for italics)
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "workbench.editor.highlightModifiedTabs": true,
+    "debug.console.lineHeight": 1.5,
+    "diffEditor.wordWrap": "on",
+    "prettier.tabWidth": 4,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "explorer.confirmDelete": false,
+    "phpcbf.onsave": true,
+    "prettier.proseWrap": "never",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.codeActionsOnSave": true,
+    "editor.fontFamily": "Fira Code iScript, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontWeight": null,
+    "editor.formatOnSave": true,
+    "editor.minimap.size": "fill",
+    "editor.quickSuggestions": null,
+    "editor.fontSize": 13,
+    "window.enableMenuBarMnemonics": false,
+    "workbench.colorTheme": "Sublime Monokai",
+    "settingsSync.ignoredExtensions": [],
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "liveServer.settings.port": 0,
+    "chatgpt.lang": "en",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "json.schemas": [
+
+    ],
+    "terminal.integrated.env.linux": {},
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "continue.enableTabAutocomplete": true,
+    "workbench.settings.applyToAllProfiles": [
+
+    ]
+}
